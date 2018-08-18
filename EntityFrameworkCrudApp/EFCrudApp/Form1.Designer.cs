@@ -39,11 +39,11 @@
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_cansel = new System.Windows.Forms.Button();
             this.dgvCustomer = new System.Windows.Forms.DataGridView();
-            this.txt_adress = new System.Windows.Forms.TextBox();
             this.CustomerID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FirstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.City = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txt_adress = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,7 +115,7 @@
             // 
             // btn_save
             // 
-            this.btn_save.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_save.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btn_save.Location = new System.Drawing.Point(42, 235);
             this.btn_save.Name = "btn_save";
@@ -127,7 +127,7 @@
             // 
             // btn_delete
             // 
-            this.btn_delete.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_delete.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btn_delete.Location = new System.Drawing.Point(135, 235);
             this.btn_delete.Name = "btn_delete";
@@ -139,7 +139,7 @@
             // 
             // btn_cansel
             // 
-            this.btn_cansel.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btn_cansel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_cansel.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.btn_cansel.Location = new System.Drawing.Point(228, 235);
             this.btn_cansel.Name = "btn_cansel";
@@ -165,14 +165,6 @@
             this.dgvCustomer.Size = new System.Drawing.Size(424, 308);
             this.dgvCustomer.TabIndex = 11;
             this.dgvCustomer.DoubleClick += new System.EventHandler(this.dgvCustomer_DoubleClick);
-            // 
-            // txt_adress
-            // 
-            this.txt_adress.Location = new System.Drawing.Point(125, 154);
-            this.txt_adress.Multiline = true;
-            this.txt_adress.Name = "txt_adress";
-            this.txt_adress.Size = new System.Drawing.Size(178, 61);
-            this.txt_adress.TabIndex = 7;
             // 
             // CustomerID
             // 
@@ -204,11 +196,19 @@
             this.City.Name = "City";
             this.City.ReadOnly = true;
             // 
+            // txt_adress
+            // 
+            this.txt_adress.Location = new System.Drawing.Point(125, 154);
+            this.txt_adress.Multiline = true;
+            this.txt_adress.Name = "txt_adress";
+            this.txt_adress.Size = new System.Drawing.Size(178, 61);
+            this.txt_adress.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(766, 332);
             this.Controls.Add(this.dgvCustomer);
             this.Controls.Add(this.btn_cansel);
